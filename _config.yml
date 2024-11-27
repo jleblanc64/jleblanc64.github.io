@@ -36,6 +36,8 @@ titles_from_headings:
 
 permalink: /:title/
 
+exclude: ['README.md']
+
 defaults:
   - scope:
       path: ""
