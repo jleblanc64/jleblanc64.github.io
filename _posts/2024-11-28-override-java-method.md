@@ -37,7 +37,9 @@ LibCustom.override(A.class, "add", args -> {
   var a = args[0];
   var b = args[1];
   return a * b;
-})
+});
+
+LibCustom.load();
 {% endhighlight %}
 
 Now, the method returns `A.add(2,3) = 6`
